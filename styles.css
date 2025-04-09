@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.main{
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 40px 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:784px) {
+    .header {
+        display: flex;
+    align-items: center;
+   flex-direction: column;
+    }
+}
+
+.header_avatar{
+ width: 130px;
+ height: 130px;
+}
+
+.header_title{
+ font-family: "Comfortaa";
+ font-size: 24px;
+ width: 283px;
+}
+
+@media screen and (max-width:784px) {
+    .header_title{
+        margin: 40px 0 40px 0;
+        text-align: center;
+    }
+}
+
+.header_message{
+ font-family: "Comfortaa";
+ font-size: 16px;
+ width: 500px;
+}
+
+@media screen and (max-width:784px) {
+    .header_message{
+     width: auto;
+     text-align: center;
+    }
+}
+
+.header_info{
+ display: flex;
+ flex-direction: column;
+}
+
+@media screen and (max-width:784px) {
+    .header_info{
+        margin: 40px 0 20px 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header_contact{
+    margin: 40px 0 0 0;
+    font-family: "Comfortaa";
+}
+
+@media screen and (max-width:784px) {
+    .header_contact{
+     margin: 20px 0 20px 0;
+    }
+}
+
+.header_mail{
+ margin: 0 0 7px 0;
+}
+
+.header_phone{
+    margin: 0 0 7px 0;
+}
+
+.header_place{
+    margin: 0 0 7px 0;
+}
+
+.header_link{
+    height: 15px;
+    margin: 15px 0 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_telegram{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.header_github{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.container{
+    font-family: "Comfortaa";
+    margin: 0 auto; 
+}
+
+.container_most{
+    font-size: 14px;
+    margin: 7px 0 3px 0;
+    color: #8b8b8b;
+}
+
+.container_title{
+ margin-bottom: 0px;
+}
+
+.container_years{
+    font-size: 14px;
+    margin: 1px 0 10px 0;
+    color: #8b8b8b;
+}
+
+.container_message{
+    font-size: 14px;
+}
+
+.skils{
+ margin-top: 40px;
+}
+
+.skils_title{
+    margin: 15px 0 5px;
+}
+
+.skils_info{
+ margin: 3px 0 10px 0;
+ font-size: 14px;
+}
